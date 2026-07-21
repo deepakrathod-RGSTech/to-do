@@ -15,7 +15,6 @@ function App() {
             <Route path="/register" element={<Register />} /> 
             <Route path="/todos" element={<TodoList />} />
             <Route path="/" element={<Navigate to="/login"  />} />
-
           </Routes>
         </div>
       </Router>
