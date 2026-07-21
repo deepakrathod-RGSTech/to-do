@@ -12,9 +12,10 @@ function App() {
         <div className="min-h-screen bg-gray-100">
           <Routes>
             <Route path="/login" element={<Login />} />
-            <Route path="/register" element={<Register />} />
+            <Route path="/register" element={<Register />} /> 
             <Route path="/todos" element={<TodoList />} />
-            <Route path="/" element={<Navigate to="/login" />} />
+            <Route path="/" element={<Navigate to="/login"  />} />
+
           </Routes>
         </div>
       </Router>
